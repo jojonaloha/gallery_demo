@@ -8,7 +8,7 @@ set :tables, "common"
 
 # Set the repository type and location to deploy from.
 set :scm, :git
-set :repository,  "git@github.com:metaltoad/#{application}.git"
+set :repository,  "git@github.com:jojonaloha/#{application}.git"
 # set :scm, :subversion
 # set :repository,  "https://svn.metaltoad.com/svn/#{application}/trunk/"
 # set(:scm_password) { Capistrano::CLI.password_prompt("SCM Password: ") }
